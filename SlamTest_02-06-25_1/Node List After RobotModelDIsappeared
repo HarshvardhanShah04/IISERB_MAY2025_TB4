@@ -1,0 +1,27 @@
+$ros2 node list after slam failure (tf failed, robot model disappeared from rviz)
+
+/_internal/composite_hazard
+/_internal/kinematics_engine
+/_internal/mobility
+/_internal/stasis
+/analyzers
+/joint_state_publisher
+/joy_linux_node
+/mobility_monitor
+/motion_control
+/robot_state
+/robot_state_publisher
+/rplidar_composition
+/rqt_gui_py_node_17927
+/rviz2
+/rviz_navigation_dialog_action_client
+/slam_toolbox
+/static_transform
+/system_health
+/teleop_twist_joy_node
+/transform_listener_impl_567b3741c040
+/transform_listener_impl_56eb471e37d0
+/turtlebot4_diagnostics
+/turtlebot4_node
+/ui_mgr
+

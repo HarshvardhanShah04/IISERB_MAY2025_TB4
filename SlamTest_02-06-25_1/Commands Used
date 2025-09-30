@@ -1,0 +1,17 @@
+on rpi:
+ros2 launch turtlebot4_bringup lite.launch.py
+
+On laptop:
+ros2 launch turtlebot4_navigation slam.launch.py
+ros2 launch turtlebot4_viz view_robot.launch.py
+
+on laptop: To save the map
+ros2 service call /slam_toolbox/save_map slam_toolbox/srv/SaveMap "name: data: 'Robot51Map1'"
+
+Visualization on Laptop:
+rqt_graph
+ros2 topic list
+ros2 node list
+
+watch -n 1 ros2 topic list (continuous monitoring)
+watch -n 1 ros2 node list (continuous monitoring)
