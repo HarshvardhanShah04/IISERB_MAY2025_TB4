@@ -1,0 +1,27 @@
+Nav2 Goal Topic list
+
+
+harsh@harsh-OMEN-by-HP-Gaming-Laptop-16-wf1xxx:~$ ros2 topic list
+/amcl/transition_event
+/amcl_pose
+/behavior_server/transition_event
+/bond
+/clicked_point
+/cmd_vel
+/cmd_vel_nav
+/controller_server/transition_event
+/diagnostics
+/initialpose
+/local_costmap/local_costmap/transition_event
+/map
+/map_server/transition_event
+/parameter_events
+/particle_cloud
+/plan_smoothed
+/rosout
+/smoother_server/transition_event
+/tf
+/velocity_smoother/transition_event
+/waypoint_follower/transition_event
+harsh@harsh-OMEN-by-HP-Gaming-Laptop-16-wf1xxx:~$ 
+
